@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.main {border: 1px solid black;overflow: auto;width: 400px;padding: 10px;}
+
+table {
+  width: 100%;
+  padding: 7px;
+}
+
+#nutrition {
+  font-size: 2.75em;
+  font-weight: bold;
+}
+
+#size {
+  padding-top: 10px;
+}
+
+#servings {
+ border-bottom: 12px solid black;
+ padding-bottom: 5px;
+}
+#calories td {
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+}
+.bold {
+  font-weight: bold;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+td#amount {
+  padding-top: -10px;
+}
+td {
+  padding: 8px 0;
+}
